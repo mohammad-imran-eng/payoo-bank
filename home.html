@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="flex justify-center">
+        <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+              <div class="artboard artboard-demo phone-1">
+
+                <!-- available balance -->
+                <div class="stats shadow">
+                    <div class="stat">
+                      <div id="current-amount" class="stat-value">500</div>
+                      <div class="stat-desc">Available balance</div>
+                    </div>
+                  </div>
+
+                  <div class="divider"></div>
+
+                  <input id="enter-amount" type="text" placeholder="Enter your amount" class="input input-bordered  w-full max-w-xs mb-10" />
+                  <div>
+                    <button id="add-money" class="btn btn-lg btn-accent text-white">Add Money</button>
+                    <button id="cashout" class="btn btn-lg btn-secondary text-white">Cash Out</button>
+                  </div>
+                
+                  
+
+              </div>
+            </div>
+          </div>
+    </div>
+    
+
+    <script src="js/home.js"></script>
+</body>
+</html>
